@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>The News York Times</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1 class="title" id="title"> The New York Times </h1>
+            <div class="weather" id="weather">
+                <p id="temp"></p>
+                <img src="" id="weather-img">
+                <p id="name"></p>
+
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="nav-bar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">U.S</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Opinion</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main topic" id="topic">
+            <div class="left topic" id="left">
+                <ul class="left-news" id="left-news">
+                </ul>
+            </div>
+            <div class="middle topic" id="middle">
+
+            </div>
+            <div class="right topic" id="right">
+                <ul class="right-news" id="right-news">
+                </ul>
+            </div>
+        </div>
+
+        <div class="top-stories">
+            
+            <div class="top-view">
+                <h1>Top View</h1>
+                <ul class="top-view-search" id="top-view-search"></ul>
+
+            </div>
+            <div class="business">
+                <h1>Business</h1>
+                <ul class="business-search" id="business-search"></ul>
+
+            </div>
+            <div class="world">
+                <h1>World</h1>
+                <ul class="world-search" id="world-search"></ul>
+
+            </div>
+            <div class="arts-view">
+                <h1>Arts</h1>
+                <ul class="arts-search" id="arts-search"></ul>
+
+            </div>
+            <div class="books">
+                <h1>Books</h1>
+                <ul class="books-search" id="books-search"></ul>
+
+            </div>
+            
+            <div class="weather-forecast" id="weather-forecast">
+                <div id="weather-4">
+                    <div class="input-search">
+                        <input type="text" placeholder="Enter city" id="input">
+                        <button id="submit" class="submit-btn">Search</button>
+                    </div>
+                    <p class="city animate__animated animate__backInUp" id="city"></p>
+                    <img id="img" src=""/>
+                    <p class="temputure" id="temputure"></p>
+                    <p class="feel-like" id="feel-like"></p>
+                    <p class="humid" id="humid"></p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="bot-title">
+                <p>The New York Times</p>
+            </div>
+            <div class="news">
+                    <li class="bot-top">News</li>
+                    <li>Home Page</li>
+                    <li>World</li>
+                    <li>Corona Virus</li>
+                    <li>U.S</li>
+                    <li>Sports</li>
+                    <li>Tech</li>
+                    <li>Science</li>
+                    <li>Today's paper</li>
+                    <li>Corrections</li>
+                    <li>Politics</li>
+            </div>
+            <div class="opinion">
+                <li class="bot-top">Opinion</li>
+                <li>Today's Opinion</li>
+                <li>Op-Ed Columnists</li>
+                <li>Letter</li>
+            </div>
+            <div class="arts">
+                <li class="bot-top">Arts</li>
+                <li>Today's Arts</li>
+                <li>Art & Design</li>
+                <li>Books</li>
+                <li>Dance</li>
+                <li>Movies</li>
+                <li>Television</li>
+            </div>
+            <div class="living">
+                <li class="bot-top">Living</li>
+                <li>At Home</li>
+                <li>Games</li>
+                <li>Food</li>
+                <li>Jobs</li>
+                <li>Love</li>
+                <li>Magazine</li>
+                <li>Parenting</li>
+            </div>
+            <div class="more">
+                <li class="bot-top">More</li>
+                <li>Reader Center</li>
+                <li>Live Events</li>
+                <li>Tools & Service</li>
+                <li>Video</li>
+                <li>Photography</li>
+            </div>
+            <div class="subscribe">
+                <li class="bot-top">Subscribe</li>
+                <span><li>Home Delivery</li>
+                <li>Digital Subscriptions</li>
+                <li>Games</li>
+                <li>Cooking</li></span>
+                <li>Email Newsletters</li>
+                <li>Corporate Subscriptions</li>
+                <li>Education Rate</li>
+            </div>
+            <div class="else">
+                <li>Mobile Application</li>
+                <li>Replica Edition</li>
+                <li>International</li>
+                <li>Canada</li>
+                <li>Español</li>
+            </div>
+            <div class="bottom">
+                <li>2021 The New York Times Copany</li>
+                <li>NYTCo</li>
+                <li>Contact us</li>
+                <li>Accessibility</li>
+                <li>Work with us</li>
+                <li>Privacy Policy</li>
+                <li>Term of Service</li>
+                <li>Term of Sale</li>
+                <li>Help</li>
+            </div>
+
+        </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
